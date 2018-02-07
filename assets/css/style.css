@@ -80,6 +80,15 @@ aside {
     border-top: 8px solid #4aaaa5;
 }
 
+/*  Portfolio */
+.portfText {
+    background: #4aaaa5;
+    color: #ffffff;
+    position: relative;
+    bottom:70px;
+}
+
+
 /* Media Queries for Responsive Photo */
 
 @media screen and (max-width: 992px) {
@@ -101,3 +110,4 @@ aside {
        width:100%:
    }
 }
+
