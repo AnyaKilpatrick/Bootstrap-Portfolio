@@ -88,6 +88,14 @@ aside {
     bottom:70px;
 }
 
+/* Form  */
+
+.myButton {
+    background: #4aaaa5;
+    color: #ffffff;
+    border-radius: 0;
+    border: none;
+}
 
 /* Media Queries for Responsive Photo */
 
