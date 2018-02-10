@@ -3,6 +3,9 @@ html {
     min-height: 100vh;
 }
 
+::-webkit-scrollbar { 
+    display: none; 
+}
 /* *{
     box-sizing: border-box;
 } */
@@ -48,6 +51,11 @@ myHeader {
     border-right:1px solid #cccccc;
 }
 
+.myNav:hover {
+    background: #4aaaa5;
+    color: #ffff;
+    border-radius: 100px;
+}
 /* Article */
 .photo {
     width:200px;
@@ -63,6 +71,11 @@ article {
     margin-bottom: 20px;
 }
 /* Sidebar */
+
+.icon:hover  {
+    border-radius: 100px;
+  }
+
 aside {
     max-height: 150px;
 }
@@ -88,6 +101,10 @@ aside {
 }
 
 /* Form  */
+
+.myButton:hover {
+    border-radius: 100px;
+}
 
 .myButton {
     background: #4aaaa5;
