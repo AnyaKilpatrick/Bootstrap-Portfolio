@@ -1,5 +1,5 @@
 html {
-    display:relative;
+    position:relative;
     min-height: 100vh;
 }
 
@@ -13,6 +13,7 @@ body {
     background: #dddddd;
     color: #777777;
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    margin-bottom: 100px;
 }
 
 h1, h3 {
@@ -87,6 +88,8 @@ aside {
 
 /* Footer */
 .myFooter {
+    position: absolute;
+    bottom: 0%;
     background: #777777;
     color: white;
     border-top: 8px solid #4aaaa5;
